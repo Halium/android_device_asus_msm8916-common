@@ -186,9 +186,9 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc
 
 # Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_asus \
-    resize2fs_static
+#PRODUCT_PACKAGES += \
+#    librecovery_updater_asus \
+#    resize2fs_static
 
 # Releasetools
 PRODUCT_COPY_FILES += \
