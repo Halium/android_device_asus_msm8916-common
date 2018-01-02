@@ -45,6 +45,7 @@ ro.qualcomm.bt.hci_transport=smd
 
 # Camera
 persist.camera.cpp.duplication=false
+persist.camera.HAL3.enabled=1
 
 # Display
 debug.egl.hw=0
@@ -52,6 +53,7 @@ debug.enable.sglscale=1
 debug.mdpcomp.idletime=600
 debug.mdpcomp.logs=0
 debug.sf.hw=0
+debug.hwui.use_buffer_age=false
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
 persist.hwc.mdpcomp.enable=true
